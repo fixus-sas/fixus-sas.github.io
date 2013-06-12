@@ -126,30 +126,35 @@
 	<div class="container-fluid" id="contact">
 	<div class="container dark">
 		<h1>Comun&iacute;cate con nosotros</h1>	
-	
-		<div class="span5">			
-			<form>
+<div class="span5">	
+   <form action="https://docs.google.com/spreadsheet/formResponse?formkey=dGJCei1jSXN6cVc3dEtNVzNtb0dySkE6MA&amp;ifq" method="POST" target="#" onsubmit="alert('gracias!');">
+<input type="hidden" name="fromEmail" value="true">
+
 				  <div class="control-group">
 				    <label class="control-label" for="inputName">Nombre</label>
 				    <div class="controls">
-				      <input type="text" class="span4" id="inputName" placeholder="Name">
+				      <input type="text" class="span4" name="entry.0.single" id="inputName" placeholder="Name">
 				    </div>
 				  </div>
 				  <div class="control-group">
-				    <label class="control-label" for="inputEmail">Correo</label>
+				    <label class="control-label"  for="inputEmail">Correo</label>
 				    <div class="controls">
-				      <input type="text" class="span4" id="inputEmail" placeholder="Email">
+				    <input type="text" class="span4" name="entry.2.single" id="inputEmail" placeholder="Email">
 				    </div>
 				  </div>
 				  <div class="control-group">
 				    <label class="control-label" for="inputContact">Mensaje</label>
 				    <div class="controls">
-				     <textarea id="inputContact" class="span4"></textarea>
+				     <textarea id="inputContact" name="entry.5.single" class="span4"></textarea>
 				    </div>
 				  </div>
+<input type="hidden" name="pageNumber" value="0">
+<input type="hidden" name="backupCache">
+
+
 				  <div class="control-group">
 				    <div class="controls">
-				      <button type="submit" class="btn btn-purple">Cont&aacute;ctanos</button>
+				      <button type="submit" name="submit" class="btn btn-purple">Cont&aacute;ctanos</button>
 				    </div>
 				  </div>
 			</form>
